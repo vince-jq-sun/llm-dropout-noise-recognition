@@ -1,0 +1,139 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spe"
+version = "0.1.0"
+keywords = ["introspection", "large language models", "in-context learning", "mechanistic detection", "internal state detection"]
+
+maintainers = [
+  { name="Jane Doe", email="janedoe@lawzero.org" },
+]
+authors = [
+  { name="Jane Doe", email="janedoe@lawzero.org" },
+]
+description = "SPAR Dropout Experiments"
+readme = { file = "README.md", content-type = "text/markdown"}
+license = "MIT"
+license-files = ["LICENSE"]
+
+requires-python = ">=3.12"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "torch>=2.0.0",
+    "transformers>=4.43.0",
+    "accelerate>=0.20.0",
+    "matplotlib>=3.7.0",
+    "scikit-learn>=1.3.0",
+    "seaborn>=0.12.0",
+    "numpy>=1.24.0",
+    "hydra-core>=1.3.0",
+    "omegaconf>=2.3.0",
+    "wandb>=0.15.0",
+    "pytest>=7.0.0",
+    "ipywidgets>=8.1.8",
+]
+[dependency-groups]
+dev = [
+    "pre-commit>=4.3.0",
+    "pyright>=1.1.405",
+    "pytest>=8.4.2",
+    "pytest-cov>=7.0.0",
+    "ruff>=0.12.12",
+    "twine>=6.2.0",
+    "jupyterlab>=4.5.5",
+]
+
+[project.urls]
+Homepage = "https://github.com/placeholder/python-project-template"
+Issues = "https://github.com/placeholder/python-project-template/issues"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+spe = ["py.typed", "data/*"]
+
+[project.scripts]
+spe-localize = "spe.entry_localize:main"
+spe-icl = "spe.entry_icl:main"
+spe-multiclass = "spe.entry_multiclass:main"
+
+[tool.pyright]
+include = ["src", "examples", "tests", "docs"]
+typeCheckingMode = "standard"
+reportUnusedVariable = "error"
+reportMissingImports = "error"
+reportMissingTypeStubs = false  # ML libs (transformers, wandb, sklearn) lack stubs
+exclude = []
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+exclude = []
+
+[tool.ruff.lint]
+select = [
+  "E", "F", "UP", "I", "B", "N", "S", "A", "C4", "T20"
+]
+ignore = [
+  "E501",   # line too long
+  "D107",   # missing docstring in __init__
+  "T201",   # print — used for experiment output throughout
+  "S311",   # pseudo-random — this is ML research, not crypto
+  "E741",   # ambiguous variable `l` — used for "layer" throughout
+  "N812",   # lowercase imported as non-lowercase — PyTorch `F` convention
+  "A002",   # argument shadowing builtin — PyTorch hook `input` signature
+  "N806",   # variable in function should be lowercase — constants in functions
+  "C420",   # dict comprehension vs dict.fromkeys — conflicts with pyright typing
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[tool.ruff.lint.per-file-ignores]
+"src/**/__init__.py" = ["D104", "D107"]  # ignore module and __init__ docstrings
+"tests/**" = ["S101"]  # allow asserts in tests
+"notebooks/**" = ["E402", "A004", "B905", "B007", "E712", "S301", "C4"]  # notebooks: allow late imports, pickle, style choices
+"scripts/**" = ["T201"]  # scripts can print
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = [
+  "--cov=src/spe",
+  "--cov-report=term-missing",
+  "--cov-report=xml",
+  "-v"
+]
+
+[tool.coverage.run]
+source = ["src"]
+omit = []
+
+[tool.coverage.report]
+exclude_lines = [
+  "pragma: no cover",
+  "def __repr__",
+  "raise AssertionError",
+  "raise NotImplementedError",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]

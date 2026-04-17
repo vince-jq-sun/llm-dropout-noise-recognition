@@ -1,0 +1,28 @@
+name: localization/control_topic_weather_technology_variants/v06
+content_correct_group: 0
+turns:
+  - role: "user"
+    content: >-
+      I have a question about some sentences. Tell me which one
+      is about weather.
+
+  - role: "assistant"
+    content: >-
+      I understand. I will pay close attention to the sentences.
+
+  - role: "user"
+    content: >-
+      Read the following sentences carefully:
+
+      {sentences_block}
+
+  - role: "assistant"
+    content: >-
+      I have read the sentences. I am ready to answer your question.
+
+  - role: "user"
+    content: >-
+      Which sentence is about weather? {answer_instruction}
+
+  - role: "assistant"
+    content: "the answer is:"

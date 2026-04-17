@@ -1,0 +1,28 @@
+name: localization/control_topic_animals_cities_variants/v14
+content_correct_group: 1
+turns:
+  - role: "user"
+    content: >-
+      I have a content question about some sentences. Which one is
+      about a city?
+
+  - role: "assistant"
+    content: >-
+      I understand. I will read the sentences carefully.
+
+  - role: "user"
+    content: >-
+      Read the following sentences carefully:
+
+      {sentences_block}
+
+  - role: "assistant"
+    content: >-
+      I have examined the sentences and I am ready to answer.
+
+  - role: "user"
+    content: >-
+      Which of the sentences is about a city? {answer_instruction}
+
+  - role: "assistant"
+    content: "the answer is:"

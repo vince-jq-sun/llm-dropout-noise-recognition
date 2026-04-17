@@ -1,0 +1,4 @@
+display_names:
+  DROPOUT: "QUANTIZATION"
+  NOISE: "JITTER"
+descriptions: null

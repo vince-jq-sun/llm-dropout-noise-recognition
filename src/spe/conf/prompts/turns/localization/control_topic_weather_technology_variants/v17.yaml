@@ -1,0 +1,28 @@
+name: localization/control_topic_weather_technology_variants/v17
+content_correct_group: 1
+turns:
+  - role: "user"
+    content: >-
+      Please read the sentences I am about to give you and identify
+      which one is about technology.
+
+  - role: "assistant"
+    content: >-
+      I understand. I will read them and answer your question.
+
+  - role: "user"
+    content: >-
+      Look at the following sentences carefully:
+
+      {sentences_block}
+
+  - role: "assistant"
+    content: >-
+      I have read the sentences and I am ready to answer.
+
+  - role: "user"
+    content: >-
+      Which sentence is about technology? {answer_instruction}
+
+  - role: "assistant"
+    content: "the answer is:"

@@ -1,0 +1,28 @@
+name: localization/control_topic_animals_cities_variants/v06
+content_correct_group: 0
+turns:
+  - role: "user"
+    content: >-
+      I have a question about the content of some sentences.
+      Identify which one is about animals.
+
+  - role: "assistant"
+    content: >-
+      I understand. I will read them carefully.
+
+  - role: "user"
+    content: >-
+      Read the following sentences carefully:
+
+      {sentences_block}
+
+  - role: "assistant"
+    content: >-
+      I have read the sentences. I am ready to answer.
+
+  - role: "user"
+    content: >-
+      Which sentence is about animals? {answer_instruction}
+
+  - role: "assistant"
+    content: "the answer is:"

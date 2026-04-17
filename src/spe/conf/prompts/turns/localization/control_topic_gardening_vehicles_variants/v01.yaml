@@ -1,0 +1,28 @@
+name: localization/control_topic_gardening_vehicles_variants/v01
+content_correct_group: 0
+turns:
+  - role: "user"
+    content: >-
+      I would like to ask about the content of some sentences. Tell
+      me which one is about gardening.
+
+  - role: "assistant"
+    content: >-
+      I understand. I will read them carefully.
+
+  - role: "user"
+    content: >-
+      Look at the following sentences carefully:
+
+      {sentences_block}
+
+  - role: "assistant"
+    content: >-
+      I have read the sentences and I am ready to answer.
+
+  - role: "user"
+    content: >-
+      Which sentence is about gardening? {answer_instruction}
+
+  - role: "assistant"
+    content: "the answer is:"

@@ -1,0 +1,16 @@
+.idea
+uv.lock
+AGENTS.md
+LOG_PROB.md
+CLAUDE.md
+EQUIVALENCE_PLAN.md
+CLASSIFICATION_DROPOUT_NOISE.md
+**/__pycache__
+*.png
+**/outputs
+**/.ipynb_checkpoints
+notebooks/artifacts/
+data/cache/*
+*.zip
+**/.DS_Store
+src/spe.egg-info

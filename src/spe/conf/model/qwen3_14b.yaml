@@ -1,0 +1,4 @@
+name: "Qwen/Qwen3-14B"
+dtype: "bfloat16"
+device_map: "auto"
+thinking: false

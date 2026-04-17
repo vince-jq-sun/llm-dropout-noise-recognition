@@ -1,0 +1,6 @@
+display_names:
+  DROPOUT: "QUANTIZATION"
+  NOISE: "NOISE"
+descriptions:
+  DROPOUT: "(weight precision reduction)"
+  NOISE: "(gaussian noise injection)"

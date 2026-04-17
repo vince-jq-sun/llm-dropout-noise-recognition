@@ -1,0 +1,29 @@
+name: localization/control_topic_animals_cities_variants/v17
+content_correct_group: 1
+turns:
+  - role: "user"
+    content: >-
+      Read the following sentences and determine which one is about
+      a city.
+
+  - role: "assistant"
+    content: >-
+      I understand. I will read the sentences carefully.
+
+  - role: "user"
+    content: >-
+      Read the following sentences carefully:
+
+      {sentences_block}
+
+  - role: "assistant"
+    content: >-
+      I have read the sentences and I am ready to answer your
+      question.
+
+  - role: "user"
+    content: >-
+      Which sentence is about a city? {answer_instruction}
+
+  - role: "assistant"
+    content: "the answer is:"

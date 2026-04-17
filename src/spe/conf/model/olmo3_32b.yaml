@@ -1,0 +1,4 @@
+name: "allenai/Olmo-3.1-32B-Instruct"
+dtype: "bfloat16"
+device_map: "auto"
+thinking: false

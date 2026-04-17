@@ -1,0 +1,28 @@
+name: localization/control_topic_animals_cities_variants/v03
+content_correct_group: 0
+turns:
+  - role: "user"
+    content: >-
+      Read the following sentences and tell me which one is about
+      animals.
+
+  - role: "assistant"
+    content: >-
+      I understand. I will read the sentences and answer your question.
+
+  - role: "user"
+    content: >-
+      Read the following sentences carefully:
+
+      {sentences_block}
+
+  - role: "assistant"
+    content: >-
+      I have read the sentences and I am ready to answer.
+
+  - role: "user"
+    content: >-
+      Which sentence is about animals? {answer_instruction}
+
+  - role: "assistant"
+    content: "the answer is:"

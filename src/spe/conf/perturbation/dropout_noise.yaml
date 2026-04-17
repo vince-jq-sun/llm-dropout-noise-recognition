@@ -1,0 +1,12 @@
+mode: "multiclass"
+dropout_rate: 0.1
+dropout_style: "post_sublayer"
+noise_std: 0.01
+hook_target: "both"
+first_layer: 0
+last_layer: -1
+first_token: 0
+last_token: -1
+perturb_from_turn: 2
+perturb_to_turn: 4
+active_perturbations: null

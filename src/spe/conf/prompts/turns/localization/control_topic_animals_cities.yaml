@@ -1,0 +1,136 @@
+name: localization/control_topic_animals_cities
+
+sentence_groups:
+  # Animals
+  - - "The golden retriever ran across the field chasing a ball thrown by its owner."
+    - "A small colony of penguins gathered on the rocky shore as the tide came in."
+    - "The gray squirrel darted up the oak tree when it heard footsteps approaching."
+    - "Dolphins were spotted swimming alongside the fishing boats near the harbor."
+    - "A pair of hawks circled high above the meadow searching for prey in the tall grass."
+    - "The tabby cat stretched out on the warm windowsill and watched the birds outside."
+    - "Several deer emerged from the tree line at dusk to graze in the open field."
+    - "A large tortoise slowly made its way across the sandy path toward the pond."
+    - "The parrot repeated every word it heard from the visitors at the wildlife sanctuary."
+    - "A fox darted across the frozen creek and disappeared into the bushes on the far bank."
+    - "The old barn owl swooped silently over the wheat field hunting for mice at dusk."
+    - "A mother bear led her two cubs along the riverbank looking for salmon."
+    - "The chimpanzees groomed each other in the shade of a large fig tree."
+    - "An eagle soared on the thermal currents rising from the sunbaked canyon floor."
+    - "The rabbits nibbled on clover near the fence while keeping watch for predators."
+    - "A herd of elephants crossed the dry savanna heading toward the distant watering hole."
+    - "The raccoon pried open the trash can lid and pulled out scraps of food."
+    - "A pair of swans glided across the still lake leaving gentle ripples behind them."
+    - "The wolf pack howled in unison as the moon rose above the frozen tundra."
+    - "Flamingos stood on one leg in the shallow lagoon filtering tiny shrimp from the water."
+    - "The octopus changed color and squeezed through a narrow gap between the rocks."
+    - "A kangaroo bounded across the red dirt clearing and vanished into the scrubland."
+    - "The hedgehog curled into a tight ball when it sensed the dog approaching."
+    - "Sea otters floated on their backs cracking open shellfish with small stones."
+    - "A hummingbird hovered in front of the bright red feeder and drank the sugar water."
+    - "The crocodile lay motionless at the edge of the river waiting for prey to come near."
+    - "A colony of bats poured out of the cave entrance just after sunset."
+    - "The border collie sprinted in wide circles herding the sheep toward the gate."
+    - "Mountain goats balanced on narrow ledges high above the valley floor."
+    - "A blue whale surfaced briefly and expelled a tall spout of mist before diving again."
+    - "The moose stood in the middle of the road blocking traffic until it wandered back into the woods."
+    - "A chameleon clung to a thin branch slowly rotating its eyes in opposite directions."
+    - "The pelican scooped a mouthful of fish from the shallow water and tilted its head back to swallow."
+    - "Wild horses galloped across the open plain kicking up clouds of dust behind them."
+    - "The salamander crept along the damp log searching for insects beneath the bark."
+    - "A pride of lions rested in the tall grass after finishing their meal near the riverbank."
+    - "The woodpecker hammered rapidly against the dead trunk sending chips of bark to the ground."
+    - "A sea lion barked loudly from the rocky outcrop as the waves splashed around it."
+    - "The monarch butterflies clustered on the branches of the fir trees during their winter migration."
+    - "A warthog trotted across the dusty clearing with its tail sticking straight up in the air."
+  # Cities (every sentence explicitly names a city)
+  - - "The streets of Tokyo were packed with commuters heading to work in the morning rush."
+    - "A new metro line opened in Paris connecting the northern suburbs to the city center."
+    - "Berlin hosted an international film festival that drew visitors from across Europe."
+    - "The skyline of Dubai was dominated by glass towers rising above the desert sand."
+    - "Street vendors in Bangkok sold noodles and fruit along the busy riverside promenade."
+    - "Rome attracted millions of tourists each year to see its ancient ruins and fountains."
+    - "A heavy snowfall blanketed Moscow and delayed trains arriving at the central station."
+    - "The port of Shanghai handled more cargo containers than any other city in the world."
+    - "Cyclists in Amsterdam used dedicated lanes that ran alongside every major canal."
+    - "The historic center of Prague was illuminated by thousands of lights during the festival."
+    - "Traffic in Cairo came to a standstill as construction blocked the main bridge over the Nile."
+    - "A jazz band played on a balcony overlooking the crowded streets of New Orleans."
+    - "The waterfront district of Sydney was lined with restaurants and ferry terminals."
+    - "Commuters in London squeezed onto packed underground trains during the evening rush."
+    - "The old quarter of Hanoi buzzed with motorbikes weaving between market stalls."
+    - "A tram rattled along the cobblestone streets of Lisbon climbing a steep hillside."
+    - "The night market in Taipei filled an entire block with food stalls and bright lanterns."
+    - "Runners gathered at the starting line of the annual marathon through the streets of Boston."
+    - "Construction cranes dotted the skyline of Nairobi as new towers rose above the city."
+    - "The canals of Venice reflected the warm glow of streetlights on a quiet winter evening."
+    - "Street performers entertained crowds outside the cathedral in the center of Barcelona."
+    - "A ferry departed from the harbor of Istanbul crossing the strait toward the Asian side."
+    - "The open air markets of Marrakech were filled with spices and handwoven textiles."
+    - "Neon signs lit up the dense alleyways of Seoul well past midnight."
+    - "A cable car climbed the hillside above the rooftops of San Francisco in the morning fog."
+    - "The riverside parks of Vienna were crowded with families enjoying the warm afternoon."
+    - "Fishing boats returned to the docks of Reykjavik as the northern lights appeared overhead."
+    - "The boulevards of Buenos Aires were shaded by tall trees and lined with outdoor cafes."
+    - "Double decker buses inched through the congested intersections of central Mumbai."
+    - "A flower market stretched along the bank of the river in the heart of Chiang Mai."
+    - "The grand bazaar of Tehran stretched for blocks beneath a series of vaulted brick ceilings."
+    - "Tour boats cruised along the river in St Petersburg passing brightly painted palace facades."
+    - "The morning fish auction in Osaka drew crowds of buyers and restaurant owners to the docks."
+    - "Tramways crisscrossed the busy center of Melbourne connecting parks to the business district."
+    - "The rooftop terraces of Beirut offered views of the Mediterranean glowing in the sunset."
+    - "Bicycle rickshaws jostled for space on the narrow lanes of New Delhi near the spice market."
+    - "The waterfront promenade in Havana was lined with vintage cars and crumbling colonial buildings."
+    - "Skyscrapers in Kuala Lumpur towered above the old railway station in the city center."
+    - "The central square of Krakow was surrounded by medieval merchant houses and horse drawn carriages."
+    - "Rush hour traffic in Lagos stretched bumper to bumper along the expressway toward the island."
+
+prompt_pool:
+  - localization/control_topic_animals_cities_variants/v00
+  - localization/control_topic_animals_cities_variants/v01
+  - localization/control_topic_animals_cities_variants/v02
+  - localization/control_topic_animals_cities_variants/v03
+  - localization/control_topic_animals_cities_variants/v04
+  - localization/control_topic_animals_cities_variants/v05
+  - localization/control_topic_animals_cities_variants/v06
+  - localization/control_topic_animals_cities_variants/v07
+  - localization/control_topic_animals_cities_variants/v08
+  - localization/control_topic_animals_cities_variants/v09
+  - localization/control_topic_animals_cities_variants/v10
+  - localization/control_topic_animals_cities_variants/v11
+  - localization/control_topic_animals_cities_variants/v12
+  - localization/control_topic_animals_cities_variants/v13
+  - localization/control_topic_animals_cities_variants/v14
+  - localization/control_topic_animals_cities_variants/v15
+  - localization/control_topic_animals_cities_variants/v16
+  - localization/control_topic_animals_cities_variants/v17
+  - localization/control_topic_animals_cities_variants/v18
+  - localization/control_topic_animals_cities_variants/v19
+
+turns:
+  - role: "user"
+    content: >-
+      I have a question about the content of some sentences.
+      Read them and tell me which one is about animals.
+
+  - role: "assistant"
+    content: >-
+      I understand. I will read the sentences carefully.
+
+  - role: "user"
+    content: >-
+      Read the following sentences carefully:
+
+      {sentences_block}
+
+  - role: "assistant"
+    content: >-
+      I have read the sentences and I am ready to answer
+      your question.
+
+  - role: "user"
+    content: >-
+      Which sentence is about animals?
+      {answer_instruction}
+
+  - role: "assistant"
+    content: "the answer is:"

@@ -1,0 +1,6 @@
+display_names:
+  DROPOUT: "DROPOUT"
+  NOISE: "NOISE"
+descriptions:
+  DROPOUT: "(random neuron dropping)"
+  NOISE: "(gaussian noise injection)"

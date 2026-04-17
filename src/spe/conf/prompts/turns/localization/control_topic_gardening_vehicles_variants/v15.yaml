@@ -1,0 +1,29 @@
+name: localization/control_topic_gardening_vehicles_variants/v15
+content_correct_group: 1
+turns:
+  - role: "user"
+    content: >-
+      I would like you to read some sentences and tell me which one
+      is about vehicles.
+
+  - role: "assistant"
+    content: >-
+      I understand. I will pay close attention to the sentences.
+
+  - role: "user"
+    content: >-
+      Look at the following sentences carefully:
+
+      {sentences_block}
+
+  - role: "assistant"
+    content: >-
+      I have read the sentences and I am ready to answer your
+      question.
+
+  - role: "user"
+    content: >-
+      Which sentence is about vehicles? {answer_instruction}
+
+  - role: "assistant"
+    content: "the answer is:"

@@ -1,0 +1,7 @@
+mode: "icl_teaching"
+dropout_rate: 0.3
+dropout_style: "post_sublayer"
+noise_std: 0.03
+hook_target: "both"
+first_layer: 0
+last_layer: -1

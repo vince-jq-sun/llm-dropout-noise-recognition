@@ -1,0 +1,15 @@
+defaults:
+  - prompts/system: minimal_2_letters
+  - prompts/turns: icl/main
+  - model: qwen3_32b
+  - perturbation: icl_teaching
+  - aliases: none
+  - output: default
+  - wandb: default
+  - _self_
+
+experiment:
+  seed: 42
+  num_samples: 400
+  sentences_file: data/sentences/15tok.txt
+  sentence_n_tokens: null

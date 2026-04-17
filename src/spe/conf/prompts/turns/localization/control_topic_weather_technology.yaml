@@ -1,0 +1,136 @@
+name: localization/control_topic_weather_technology
+
+sentence_groups:
+  # Weather
+  - - "Dark clouds gathered over the valley and a heavy downpour began just before noon."
+    - "The morning frost coated every blade of grass in the meadow with a thin layer of ice."
+    - "A bolt of lightning split the sky and thunder rattled the windows of the farmhouse."
+    - "The heatwave pushed temperatures above forty degrees for the fifth day in a row."
+    - "Fog rolled in from the coast and reduced visibility on the highway to just a few meters."
+    - "A gentle breeze carried the scent of rain across the dry fields in the late afternoon."
+    - "The blizzard dumped half a meter of snow overnight and blocked every road out of town."
+    - "Hailstones the size of marbles pounded the rooftops and dented the cars in the parking lot."
+    - "The rainbow arced across the sky after the brief afternoon shower passed over the hills."
+    - "A cold front swept through the region and temperatures dropped fifteen degrees in an hour."
+    - "The tornado sirens wailed as a funnel cloud touched down in the field south of the village."
+    - "Dew covered the spider webs in the garden making them glisten in the early morning light."
+    - "A dust storm rolled across the plain reducing the sky to a dull orange haze."
+    - "The monsoon rains flooded the streets and turned the unpaved roads into rivers of mud."
+    - "Ice crystals formed on the inside of the cabin window during the coldest night of the year."
+    - "The warm chinook wind melted the snowpack on the foothills in less than a single day."
+    - "A thick layer of clouds blocked the sun and kept the temperature below freezing all week."
+    - "The barometer dropped sharply and the fishermen hurried back to port before the storm hit."
+    - "Sleet mixed with freezing rain made the sidewalks dangerously slippery by mid morning."
+    - "The dry season stretched on for months and cracked the soil in the empty reservoir bed."
+    - "A waterspout formed over the lake and spiraled upward drawing a column of mist into the air."
+    - "The sunset turned brilliant shades of red and orange after the volcanic ash drifted overhead."
+    - "Frost heaves buckled the pavement along the rural highway after weeks of freezing nights."
+    - "The humidity was so high that condensation dripped from every cold surface inside the hangar."
+    - "A squall line raced across the bay and capsized several small sailboats anchored near shore."
+    - "The wind chill made the temperature feel thirty degrees colder than the thermometer showed."
+    - "Patches of black ice formed on the bridge deck long before the road crews could spread salt."
+    - "The drought left the river so low that rocks normally underwater were fully exposed."
+    - "A wall of fog crept up the hillside and swallowed the village in a matter of minutes."
+    - "The first snowflakes of the season drifted down from a pale gray sky just after sunrise."
+    - "A tropical storm strengthened overnight and made landfall with sustained winds and heavy rain."
+    - "The clear sky allowed the temperature to plummet well below zero by the middle of the night."
+    - "Rime ice coated the branches of every tree on the ridge after the freezing fog lifted."
+    - "The spring thaw sent torrents of meltwater rushing down the creek beds toward the lowlands."
+    - "A heat dome settled over the region and pushed the air quality index into the danger zone."
+    - "The wind shifted direction suddenly and fanned the wildfire toward the evacuation route."
+    - "Cumulus clouds towered high above the plains signaling the approach of afternoon thunderstorms."
+    - "The wet season arrived early and caught the farmers before they had finished the harvest."
+    - "An ice storm snapped power lines and left thousands of homes without electricity for days."
+    - "The aurora borealis shimmered green and violet across the sky on the cold clear night."
+  # Technology
+  - - "The software update installed overnight and changed the layout of the home screen."
+    - "A robot arm on the assembly line welded car panels together at a rate of one every ten seconds."
+    - "The satellite transmitted data back to the ground station from its orbit above the equator."
+    - "A new chip design doubled the processing speed while cutting the power consumption in half."
+    - "The server farm hummed behind rows of locked cabinets in the temperature controlled building."
+    - "A 3D printer built a replacement bracket layer by layer from a spool of plastic filament."
+    - "The smartphone screen displayed a notification that the battery had dropped below ten percent."
+    - "A self driving car slowed to a stop at the intersection after detecting a pedestrian ahead."
+    - "The fiber optic cable carried terabytes of data under the ocean between the two continents."
+    - "A drone hovered above the construction site and captured aerial photographs of the progress."
+    - "The laptop froze in the middle of the presentation and had to be restarted by the speaker."
+    - "A virtual reality headset transported the user into a fully rendered three dimensional world."
+    - "The database query returned millions of rows in less than a second on the new hardware."
+    - "A security camera recorded footage around the clock and stored it on a network drive."
+    - "The electric vehicle charged to eighty percent in under twenty minutes at the fast station."
+    - "A wearable fitness tracker counted every step and displayed the total on a small screen."
+    - "The compiler flagged an error on line forty seven and refused to build the executable."
+    - "A quantum computer solved the optimization problem in minutes instead of hours."
+    - "The router distributed the internet connection to every device in the building wirelessly."
+    - "A machine learning model classified thousands of images with an accuracy above ninety percent."
+    - "The telescope array combined signals from multiple dishes to produce a single sharp image."
+    - "A barcode scanner beeped as it read the label on each package moving along the conveyor."
+    - "The cloud platform spun up additional instances automatically when traffic surged."
+    - "A programmable thermostat lowered the heating two degrees every night at the scheduled time."
+    - "The GPS receiver pinpointed the location within a few meters even under dense tree cover."
+    - "A CNC machine carved the aluminum block into a precise component following the digital model."
+    - "The antivirus software quarantined the suspicious file before it could execute on the system."
+    - "A lidar sensor mapped the terrain ahead of the autonomous vehicle in real time."
+    - "The LED panel displayed live scores and advertisements on the side of the stadium."
+    - "A voice assistant answered the question and set a timer after hearing the wake word."
+    - "The MRI scanner produced detailed cross section images of the patient's knee joint."
+    - "A solar panel array on the rooftop generated enough electricity to power the entire office."
+    - "The firmware update fixed a bug that had caused the printer to jam on double sided jobs."
+    - "A motion sensor triggered the porch light whenever someone walked up the front steps."
+    - "The data center cooled its racks with chilled water circulated through pipes in the floor."
+    - "A robotic vacuum cleaned the living room floor following a path stored in its memory."
+    - "The encryption algorithm scrambled the message so that only the intended receiver could read it."
+    - "A touch screen kiosk let customers place their orders without waiting in line at the counter."
+    - "The space probe deployed its instrument boom after reaching its target orbit around the planet."
+    - "A network switch routed packets between servers at speeds measured in tens of gigabits per second."
+
+prompt_pool:
+  - localization/control_topic_weather_technology_variants/v00
+  - localization/control_topic_weather_technology_variants/v01
+  - localization/control_topic_weather_technology_variants/v02
+  - localization/control_topic_weather_technology_variants/v03
+  - localization/control_topic_weather_technology_variants/v04
+  - localization/control_topic_weather_technology_variants/v05
+  - localization/control_topic_weather_technology_variants/v06
+  - localization/control_topic_weather_technology_variants/v07
+  - localization/control_topic_weather_technology_variants/v08
+  - localization/control_topic_weather_technology_variants/v09
+  - localization/control_topic_weather_technology_variants/v10
+  - localization/control_topic_weather_technology_variants/v11
+  - localization/control_topic_weather_technology_variants/v12
+  - localization/control_topic_weather_technology_variants/v13
+  - localization/control_topic_weather_technology_variants/v14
+  - localization/control_topic_weather_technology_variants/v15
+  - localization/control_topic_weather_technology_variants/v16
+  - localization/control_topic_weather_technology_variants/v17
+  - localization/control_topic_weather_technology_variants/v18
+  - localization/control_topic_weather_technology_variants/v19
+
+turns:
+  - role: "user"
+    content: >-
+      I have a question about the content of some sentences.
+      Read them and tell me which one is about weather.
+
+  - role: "assistant"
+    content: >-
+      I understand. I will read the sentences carefully.
+
+  - role: "user"
+    content: >-
+      Read the following sentences carefully:
+
+      {sentences_block}
+
+  - role: "assistant"
+    content: >-
+      I have read the sentences and I am ready to answer
+      your question.
+
+  - role: "user"
+    content: >-
+      Which sentence is about weather?
+      {answer_instruction}
+
+  - role: "assistant"
+    content: "the answer is:"

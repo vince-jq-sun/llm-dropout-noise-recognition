@@ -1,0 +1,4 @@
+display_names:
+  DROPOUT: "CLIPPING"
+  NOISE: "SMOOTHING"
+descriptions: null

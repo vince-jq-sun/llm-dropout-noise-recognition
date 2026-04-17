@@ -1,0 +1,136 @@
+name: localization/control_topic_sports_music
+
+sentence_groups:
+  # Sports
+  - - "The striker dribbled past two defenders and fired a shot into the top corner of the net."
+    - "A tennis player smashed an ace down the center line to win the tiebreak in straight sets."
+    - "The relay team sprinted around the final bend and crossed the finish line in record time."
+    - "A basketball player leaped above the rim and slammed the ball through the hoop with both hands."
+    - "The gymnast stuck her landing on the vault and raised her arms to the cheering crowd."
+    - "A boxer ducked under a left hook and countered with a sharp uppercut to the chin."
+    - "The goalkeeper dove to her right and tipped the penalty kick around the post."
+    - "A cyclist broke away from the pack on the steep climb and rode alone to the summit."
+    - "The batter connected with a fastball and sent it soaring over the outfield wall for a home run."
+    - "A swimmer touched the wall first by less than a tenth of a second in the final heat."
+    - "The rugby player caught the ball on the full and sprinted down the wing toward the try line."
+    - "A figure skater landed a triple axel cleanly and glided into a graceful spin."
+    - "The quarterback threw a long pass that sailed fifty yards into the hands of the wide receiver."
+    - "A javelin thrower planted her foot and launched the spear well beyond the seventy meter mark."
+    - "The hockey player flicked the puck past the goalie from a sharp angle near the boards."
+    - "A marathon runner collapsed across the finish line after more than two hours of racing."
+    - "The volleyball team blocked the spike at the net and won the deciding set of the match."
+    - "A golfer sank a long putt on the eighteenth green to win the tournament by a single stroke."
+    - "The wrestler pinned his opponent to the mat within the first minute of the final round."
+    - "A rower pulled hard on the oars as the boat surged ahead in the last two hundred meters."
+    - "The fencer lunged forward and scored a touch on the opponent's chest to take the lead."
+    - "A diver somersaulted twice in the air and entered the water with barely a splash."
+    - "The table tennis player returned a spinning serve with a sharp backhand flick over the net."
+    - "A sprinter exploded out of the blocks and reached top speed before the forty meter mark."
+    - "The cricket bowler sent a yorker that knocked the middle stump out of the ground."
+    - "A weightlifter hoisted the barbell above her head and held it steady for the judges."
+    - "The surfer dropped into a barrel wave and emerged cleanly on the other side of the break."
+    - "A pole vaulter cleared the bar at a new personal best and pumped his fist in celebration."
+    - "The water polo player treaded water and fired a shot past the outstretched arm of the keeper."
+    - "A badminton player smashed the shuttlecock downward so fast the opponent could not react."
+    - "The archer released the arrow and it struck the center of the target from seventy meters away."
+    - "A hurdles runner clipped the last barrier but still managed to cross the line in second place."
+    - "The shortstop fielded the ground ball cleanly and threw a strike to first base for the out."
+    - "A triathlete transitioned from the swim to the bike in under thirty seconds at the race."
+    - "The snowboarder carved a sharp turn through the fresh powder and launched off the natural lip."
+    - "A handball player spun past the defender and lobbed the ball into the top of the goal."
+    - "The lacrosse player cradled the ball up the field and whipped a shot past the goalkeeper."
+    - "A shot putter spun in the ring and released the heavy ball well beyond the seventeen meter line."
+    - "The rowing crew crossed the finish line a full boat length ahead of the nearest rival."
+    - "A karate fighter scored a clean roundhouse kick to the body and earned three points."
+  # Music
+  - - "The pianist played the opening chords of the concerto and the orchestra joined in softly behind."
+    - "A street musician strummed an acoustic guitar and sang folk songs on the busy corner."
+    - "The conductor raised her baton and the symphony began with a slow passage for the strings."
+    - "A drummer kept a steady rhythm on the snare while the rest of the band tuned their instruments."
+    - "The opera singer held the final note of the aria and the audience erupted in applause."
+    - "A violinist drew the bow across the strings producing a long mournful tone in the empty hall."
+    - "The jazz trio improvised over a twelve bar blues progression late into the evening."
+    - "A choir of fifty voices filled the cathedral with a hymn that echoed off the stone walls."
+    - "The bassist plucked a deep groove that anchored the entire rhythm section during the jam."
+    - "A cellist rehearsed a solo passage over and over until every phrase was perfectly shaped."
+    - "The trumpeter stepped forward and played a soaring solo that silenced the noisy crowd."
+    - "A DJ mixed two tracks together and the dance floor surged with energy at the transition."
+    - "The flute player breathed softly into the instrument and produced a delicate melody."
+    - "A guitarist tuned each string carefully before stepping onto the stage for the sound check."
+    - "The marching band paraded down the main street playing a bright fanfare in perfect unison."
+    - "A saxophonist closed his eyes and let a warm improvised melody float over the quiet club."
+    - "The harpist plucked a shimmering arpeggio that opened the second movement of the piece."
+    - "A music teacher guided the young students through their first attempt at playing together."
+    - "The rock band turned up the amplifiers and launched into a loud opening riff that shook the room."
+    - "A singer songwriter performed an unreleased ballad to a small audience in the back of a cafe."
+    - "The organist pressed the keys and deep resonant tones filled every corner of the old church."
+    - "A banjo player picked a fast bluegrass tune while stomping his foot to keep the tempo."
+    - "The string quartet played a delicate passage from a sonata written in the eighteenth century."
+    - "A trombone player slid between notes during a lively solo in the middle of the set."
+    - "The electronic producer layered synthesizer pads and drum samples to build a dense track."
+    - "A mandolin player joined the circle of musicians and added a bright melody to the folk song."
+    - "The boy sang his part in the school recital without missing a single note or entrance."
+    - "A harmonica player wailed a blues riff that cut through the noise of the crowded bar."
+    - "The timpanist struck the drums at the climax of the overture and the sound filled the theater."
+    - "A country singer belted out the chorus while the pedal steel guitar whined behind her."
+    - "The accordion player squeezed out a lively waltz on the cobblestone square at sunset."
+    - "A clarinet player ran through a series of scales backstage before the evening performance."
+    - "The ukulele player strummed a cheerful tune as the passengers boarded the small ferry."
+    - "A music box played a simple tinkling melody when the lid was opened on the old wooden case."
+    - "The brass section blasted a fanfare that announced the start of the graduation ceremony."
+    - "A tabla player tapped out a complex rhythm that wove in and out of the sitar melody."
+    - "The choir director counted the singers in and they began a soft round that grew louder."
+    - "A busker played a battered violin on the subway platform drawing a small crowd of commuters."
+    - "The sound engineer adjusted the levels on the mixing board before the band began recording."
+    - "A xylophone rang out a playful tune during the children's concert in the park bandstand."
+
+prompt_pool:
+  - localization/control_topic_sports_music_variants/v00
+  - localization/control_topic_sports_music_variants/v01
+  - localization/control_topic_sports_music_variants/v02
+  - localization/control_topic_sports_music_variants/v03
+  - localization/control_topic_sports_music_variants/v04
+  - localization/control_topic_sports_music_variants/v05
+  - localization/control_topic_sports_music_variants/v06
+  - localization/control_topic_sports_music_variants/v07
+  - localization/control_topic_sports_music_variants/v08
+  - localization/control_topic_sports_music_variants/v09
+  - localization/control_topic_sports_music_variants/v10
+  - localization/control_topic_sports_music_variants/v11
+  - localization/control_topic_sports_music_variants/v12
+  - localization/control_topic_sports_music_variants/v13
+  - localization/control_topic_sports_music_variants/v14
+  - localization/control_topic_sports_music_variants/v15
+  - localization/control_topic_sports_music_variants/v16
+  - localization/control_topic_sports_music_variants/v17
+  - localization/control_topic_sports_music_variants/v18
+  - localization/control_topic_sports_music_variants/v19
+
+turns:
+  - role: "user"
+    content: >-
+      I have a question about the content of some sentences.
+      Read them and tell me which one is about sports.
+
+  - role: "assistant"
+    content: >-
+      I understand. I will read the sentences carefully.
+
+  - role: "user"
+    content: >-
+      Read the following sentences carefully:
+
+      {sentences_block}
+
+  - role: "assistant"
+    content: >-
+      I have read the sentences and I am ready to answer
+      your question.
+
+  - role: "user"
+    content: >-
+      Which sentence is about sports?
+      {answer_instruction}
+
+  - role: "assistant"
+    content: "the answer is:"

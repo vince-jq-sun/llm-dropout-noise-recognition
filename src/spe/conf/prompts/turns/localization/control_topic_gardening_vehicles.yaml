@@ -1,0 +1,136 @@
+name: localization/control_topic_gardening_vehicles
+
+sentence_groups:
+  # Gardening
+  - - "The tomato plants grew tall against the wooden stakes and produced clusters of bright red fruit."
+    - "A gardener knelt beside the raised bed and pulled weeds from between the rows of lettuce."
+    - "The rose bushes along the fence bloomed in deep pink after weeks of warm spring rain."
+    - "Compost from the bin was spread across the vegetable patch before the new seeds were sown."
+    - "The sunflowers in the back garden reached well over two meters and leaned toward the light."
+    - "A sprinkler rotated slowly across the lawn keeping the freshly laid turf from drying out."
+    - "The herb garden by the kitchen door was filled with basil and thyme and rosemary."
+    - "Pruning shears snipped the dead branches off the apple tree to encourage new growth in spring."
+    - "The greenhouse shelves were lined with seedling trays waiting for the last frost to pass."
+    - "A layer of bark mulch was spread around the base of each shrub to retain moisture in the soil."
+    - "The climbing ivy had covered the entire side of the garden wall over a single summer."
+    - "A wheelbarrow full of potting soil was tipped into the newly built planter box."
+    - "The lavender hedge attracted dozens of bees that buzzed from flower to flower all afternoon."
+    - "Rows of carrots were thinned out so that each root had enough room to grow straight and thick."
+    - "The pear tree in the corner of the orchard dropped ripe fruit onto the grass below."
+    - "A trellis was set up along the south wall for the cucumber vines to climb as they grew."
+    - "The gardener tested the soil pH before deciding which fertilizer to apply to the flower beds."
+    - "Morning glories wound their way up the porch railing and opened their blue petals at dawn."
+    - "A rain barrel collected runoff from the shed roof and provided water for the vegetable rows."
+    - "The potato plants were hilled up with extra soil to keep the tubers from turning green."
+    - "Marigolds were planted along the border to deter pests from the nearby squash plants."
+    - "A drip irrigation line ran beneath the mulch delivering water directly to each plant's roots."
+    - "The ornamental cherry tree scattered pink petals across the path after a gust of wind."
+    - "Leaf blowers cleared the autumn debris from the flower beds before the first hard freeze."
+    - "The allotment plot was divided into neat sections for beans and peas and root vegetables."
+    - "A cold frame protected the young lettuce seedlings from the chilly nights in early spring."
+    - "The wisteria draped over the pergola and filled the garden with a sweet fragrance in May."
+    - "Earthworms turned through the dark topsoil aerating it and breaking down organic matter."
+    - "The gardener grafted a new variety of apple onto the rootstock of the old tree in the yard."
+    - "A hedge trimmer buzzed along the top of the boxwood border shaping it into a straight line."
+    - "Strawberry runners spread across the bed and rooted themselves into the bare patches of soil."
+    - "The compost tumbler was turned every few days to speed up the decomposition of kitchen scraps."
+    - "Daffodil bulbs were planted in clusters across the lawn in autumn for a bright spring display."
+    - "A garden fork loosened the compacted clay soil before the new flower seeds were scattered."
+    - "The zucchini plants produced so many fruits that the gardener gave bags of them to the neighbors."
+    - "Bird netting was draped over the blueberry bushes to keep the starlings from eating the crop."
+    - "The pond at the edge of the garden was surrounded by ferns and water irises."
+    - "A raised bed made from cedar planks was filled with a mix of topsoil and aged manure."
+    - "The bougainvillea spilled over the courtyard wall in a cascade of bright magenta blossoms."
+    - "Clover was sown between the vegetable rows as a cover crop to fix nitrogen back into the soil."
+  # Vehicles
+  - - "The pickup truck backed up to the loading dock and the driver lowered the tailgate."
+    - "A red sports car accelerated out of the corner and merged onto the highway at full speed."
+    - "The city bus pulled up to the stop and a dozen passengers stepped off onto the sidewalk."
+    - "A motorcycle weaved through the slow moving traffic and reached the intersection first."
+    - "The delivery van parked in the alley and the driver carried boxes to the shop entrance."
+    - "A freight train hauled a long line of tanker cars across the flat prairie toward the refinery."
+    - "The taxi driver switched on the meter and pulled away from the curb into the evening traffic."
+    - "A fire engine raced through the intersection with its lights flashing and siren blaring."
+    - "The forklift raised a heavy pallet off the warehouse floor and carried it to the loading bay."
+    - "A helicopter lifted off from the rooftop pad and banked sharply over the downtown skyline."
+    - "The tractor pulled a wide plow across the muddy field turning the soil in long dark rows."
+    - "A passenger jet taxied to the runway and waited for clearance from the control tower."
+    - "The ambulance rushed through the red light and sped toward the hospital emergency entrance."
+    - "A cement mixer turned its drum slowly as it drove to the construction site on the outskirts."
+    - "The sailboat heeled to port as a strong gust filled its mainsail in the middle of the bay."
+    - "A garbage truck stopped at every house on the block lifting and emptying each bin mechanically."
+    - "The sedan stalled at the traffic light and the driver restarted the engine after a few tries."
+    - "A snowplow cleared the main road at dawn pushing banks of snow onto the shoulder."
+    - "The electric scooter zipped silently down the bike lane and parked at the charging station."
+    - "A crane truck extended its boom high above the street to lift steel beams onto the roof."
+    - "The school bus flashed its stop sign and children crossed the road in a single file line."
+    - "A canoe glided downstream with two paddlers steering around the rocks in the shallow rapids."
+    - "The dump truck tilted its bed and released a load of gravel onto the unpaved driveway."
+    - "A police cruiser followed the speeding vehicle and activated its lights at the next exit."
+    - "The double decker tour bus circled the city center while a guide pointed out landmarks."
+    - "A kayak slid off the roof rack and was carried to the water's edge by two hikers."
+    - "The moving truck barely fit through the narrow gate leading to the courtyard of the building."
+    - "A tow truck hooked the broken down car and dragged it to the nearest repair shop."
+    - "The commuter train arrived at the platform exactly on time and the doors slid open."
+    - "A bulldozer pushed a mound of earth to the edge of the excavation site."
+    - "The ice cream van played its jingle as it rolled slowly through the residential neighborhood."
+    - "A tanker truck refueled the underground storage tanks at the gas station before sunrise."
+    - "The rickshaw driver pedaled steadily through the narrow streets carrying two passengers."
+    - "A pontoon boat drifted lazily across the lake with a group of friends lounging on board."
+    - "The mail truck made its rounds stopping at every mailbox on the rural route."
+    - "A horse drawn carriage carried tourists along the cobblestone streets of the old town."
+    - "The excavator swung its bucket and scooped a load of wet clay from the trench."
+    - "A stretch limousine idled at the curb while the chauffeur held the rear door open."
+    - "The cargo plane touched down on the short runway and rolled to a stop near the hangar."
+    - "A go kart spun its tires on the starting grid and shot forward when the light turned green."
+
+prompt_pool:
+  - localization/control_topic_gardening_vehicles_variants/v00
+  - localization/control_topic_gardening_vehicles_variants/v01
+  - localization/control_topic_gardening_vehicles_variants/v02
+  - localization/control_topic_gardening_vehicles_variants/v03
+  - localization/control_topic_gardening_vehicles_variants/v04
+  - localization/control_topic_gardening_vehicles_variants/v05
+  - localization/control_topic_gardening_vehicles_variants/v06
+  - localization/control_topic_gardening_vehicles_variants/v07
+  - localization/control_topic_gardening_vehicles_variants/v08
+  - localization/control_topic_gardening_vehicles_variants/v09
+  - localization/control_topic_gardening_vehicles_variants/v10
+  - localization/control_topic_gardening_vehicles_variants/v11
+  - localization/control_topic_gardening_vehicles_variants/v12
+  - localization/control_topic_gardening_vehicles_variants/v13
+  - localization/control_topic_gardening_vehicles_variants/v14
+  - localization/control_topic_gardening_vehicles_variants/v15
+  - localization/control_topic_gardening_vehicles_variants/v16
+  - localization/control_topic_gardening_vehicles_variants/v17
+  - localization/control_topic_gardening_vehicles_variants/v18
+  - localization/control_topic_gardening_vehicles_variants/v19
+
+turns:
+  - role: "user"
+    content: >-
+      I have a question about the content of some sentences.
+      Read them and tell me which one is about gardening.
+
+  - role: "assistant"
+    content: >-
+      I understand. I will read the sentences carefully.
+
+  - role: "user"
+    content: >-
+      Read the following sentences carefully:
+
+      {sentences_block}
+
+  - role: "assistant"
+    content: >-
+      I have read the sentences and I am ready to answer
+      your question.
+
+  - role: "user"
+    content: >-
+      Which sentence is about gardening?
+      {answer_instruction}
+
+  - role: "assistant"
+    content: "the answer is:"

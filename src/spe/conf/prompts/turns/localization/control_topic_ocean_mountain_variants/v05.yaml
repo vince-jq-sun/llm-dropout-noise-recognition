@@ -1,0 +1,29 @@
+name: localization/control_topic_ocean_mountain_variants/v05
+content_correct_group: 0
+turns:
+  - role: "user"
+    content: >-
+      I would like you to read some sentences and tell me which one
+      is about the ocean.
+
+  - role: "assistant"
+    content: >-
+      I understand. I will examine the sentences carefully.
+
+  - role: "user"
+    content: >-
+      Read the following sentences carefully:
+
+      {sentences_block}
+
+  - role: "assistant"
+    content: >-
+      I have examined the sentences and I am ready to answer your
+      question.
+
+  - role: "user"
+    content: >-
+      Which sentence is about the ocean? {answer_instruction}
+
+  - role: "assistant"
+    content: "the answer is:"

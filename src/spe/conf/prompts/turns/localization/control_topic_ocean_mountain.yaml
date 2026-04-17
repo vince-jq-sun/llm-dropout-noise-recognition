@@ -1,0 +1,136 @@
+name: localization/control_topic_ocean_mountain
+
+sentence_groups:
+  # Ocean
+  - - "A pod of whales surfaced near the coast and sprayed mist into the morning air."
+    - "The fishing trawler anchored a mile offshore while the crew prepared their nets."
+    - "Waves crashed against the rocky breakwater sending plumes of white foam skyward."
+    - "A coral reef stretched for miles beneath the turquoise water teeming with tropical fish."
+    - "The cargo ship crossed the open sea battling strong currents and heavy swells."
+    - "Seagulls circled above the pier where fishermen were sorting the day's catch."
+    - "A deep ocean trench was discovered by the research vessel during its sonar survey."
+    - "Surfers lined up beyond the breakers waiting for the next set of waves to roll in."
+    - "The lighthouse beam swept across the dark water guiding ships away from the shoals."
+    - "Jellyfish drifted in dense clusters near the surface of the warm coastal waters."
+    - "A sailboat tacked against the wind crossing the bay toward the distant marina."
+    - "The tide pool was filled with starfish and sea urchins clinging to the wet rocks."
+    - "An oil tanker slowly made its way through the narrow shipping channel at dawn."
+    - "Divers explored the wreck of a sunken freighter resting on the sandy ocean floor."
+    - "The coastguard helicopter circled above the rough seas searching for the missing boat."
+    - "Pelicans dove headfirst into the choppy water scooping up fish near the shoreline."
+    - "A massive iceberg drifted south through the open Atlantic far from the shipping lanes."
+    - "The marine biologist tagged a sea turtle before releasing it back into the warm current."
+    - "Fishing nets hung from the dock posts drying in the salty breeze off the harbor."
+    - "The submarine descended into the dark depths far below where sunlight could reach."
+    - "Crabs scuttled sideways across the wet sand as the tide slowly receded from the beach."
+    - "A catamaran glided over the reef and dropped anchor in the sheltered lagoon."
+    - "The oceanographer collected water samples from various depths using a remote probe."
+    - "Barnacles covered the hull of the old wooden boat that had not sailed in years."
+    - "A rogue wave struck the bow of the ferry and sent spray across the upper deck."
+    - "Dolphins leaped in the wake of the speedboat as it headed out toward the open water."
+    - "The kelp forest swayed gently in the underwater current providing shelter for small fish."
+    - "Oyster beds lined the shallow inlet where the river emptied into the sea."
+    - "A container ship sounded its horn as it passed through the foggy strait at low speed."
+    - "The beach was littered with shells and driftwood after the overnight storm surge."
+    - "A school of flying fish burst from the surface and glided above the waves for several seconds."
+    - "The anchor chain rattled as the crew lowered it into the deep water off the volcanic island."
+    - "Manta rays circled slowly beneath the boat feeding on plankton in the warm shallows."
+    - "The old wooden pier groaned under the weight of the fishing boats moored along its length."
+    - "A buoy bobbed in the heavy swell marking the entrance to the underwater nature reserve."
+    - "The research team lowered a camera into the abyss to photograph life near the hydrothermal vent."
+    - "Seaweed washed up in thick mats along the rocky coastline after days of strong onshore winds."
+    - "A lone kayaker paddled through the calm strait watching seals sunning on the nearby rocks."
+    - "The tidal bore surged upriver carrying foam and debris several kilometers inland."
+    - "Lobster traps were stacked on the wharf waiting to be loaded onto the boats at first light."
+  # Mountains
+  - - "The hikers reached the summit just before dawn and watched the sun rise over the peaks."
+    - "A narrow trail switchbacked up the steep ridge through dense pine forest."
+    - "Fresh snow covered the upper slopes and made the descent dangerously slippery."
+    - "The mountain lodge sat at the edge of a cliff overlooking a vast alpine valley."
+    - "Climbers roped together before crossing the glacier that filled the high basin."
+    - "An avalanche warning kept all teams off the north face for the entire weekend."
+    - "The cable car carried skiers from the village up to the top of the highest run."
+    - "Marmots whistled from the boulder fields as the group passed along the ridgeline."
+    - "A crystal clear stream tumbled down the mountainside cutting through layers of granite."
+    - "The base camp was set up at five thousand meters where the air was thin and cold."
+    - "A rockfall blocked the trail and forced the group to take a longer route around the pass."
+    - "The mountain rescue team carried the injured climber down on a stretcher through the fog."
+    - "Wildflowers covered the alpine meadow that sat between two towering granite peaks."
+    - "The old stone shelter at the top of the col offered protection from the fierce wind."
+    - "Icicles hung from the overhanging rock face where meltwater had frozen overnight."
+    - "A group of trekkers set out before sunrise to reach the high pass while the snow was firm."
+    - "The chairlift creaked as it carried passengers up the steep slope through falling snow."
+    - "Pine trees thinned out above the tree line giving way to bare rock and patches of moss."
+    - "The geological survey team mapped the exposed layers of limestone along the cliff wall."
+    - "A mountain hut served hot soup to exhausted hikers who had crossed the ridge in the rain."
+    - "The valley floor was hidden beneath a thick blanket of morning fog viewed from the summit."
+    - "Yaks carried supplies along the rocky path toward the high altitude camp."
+    - "A rope bridge spanned the deep gorge connecting two sections of the mountain trail."
+    - "The ski patrol detonated controlled charges to release unstable snowpack above the resort."
+    - "Hikers filled their water bottles from a spring that emerged from a crack in the granite."
+    - "The observatory at the peak recorded wind speeds well over a hundred kilometers per hour."
+    - "A narrow ledge carved into the cliff face served as the only route to the next valley."
+    - "The hanging glacier above the campsite groaned and cracked throughout the cold night."
+    - "Shepherds moved their flocks to lower pastures as the first autumn snowfall dusted the peaks."
+    - "The summit cairn was barely visible through the swirling clouds that clung to the ridge."
+    - "A frozen waterfall hung from the cliff like a curtain of blue ice above the snowy trail."
+    - "The porters balanced heavy loads on their backs as they climbed the steep stone steps."
+    - "Dawn light turned the snow covered peak a deep shade of pink visible from the valley below."
+    - "A crevasse hidden beneath a thin layer of snow nearly swallowed the lead climber."
+    - "The mountain railway chugged upward through a series of tunnels carved into the rock."
+    - "Lichen covered boulders marked the ancient moraine left behind by the retreating glacier."
+    - "A thunderstorm rolled across the exposed ridge forcing the group to shelter behind a rock wall."
+    - "The trail register at the summit hut was filled with entries from climbers around the world."
+    - "Scree slopes shifted underfoot making every step on the descent unpredictable and slow."
+    - "A helicopter delivered fresh supplies to the remote outpost perched on the high plateau."
+
+prompt_pool:
+  - localization/control_topic_ocean_mountain_variants/v00
+  - localization/control_topic_ocean_mountain_variants/v01
+  - localization/control_topic_ocean_mountain_variants/v02
+  - localization/control_topic_ocean_mountain_variants/v03
+  - localization/control_topic_ocean_mountain_variants/v04
+  - localization/control_topic_ocean_mountain_variants/v05
+  - localization/control_topic_ocean_mountain_variants/v06
+  - localization/control_topic_ocean_mountain_variants/v07
+  - localization/control_topic_ocean_mountain_variants/v08
+  - localization/control_topic_ocean_mountain_variants/v09
+  - localization/control_topic_ocean_mountain_variants/v10
+  - localization/control_topic_ocean_mountain_variants/v11
+  - localization/control_topic_ocean_mountain_variants/v12
+  - localization/control_topic_ocean_mountain_variants/v13
+  - localization/control_topic_ocean_mountain_variants/v14
+  - localization/control_topic_ocean_mountain_variants/v15
+  - localization/control_topic_ocean_mountain_variants/v16
+  - localization/control_topic_ocean_mountain_variants/v17
+  - localization/control_topic_ocean_mountain_variants/v18
+  - localization/control_topic_ocean_mountain_variants/v19
+
+turns:
+  - role: "user"
+    content: >-
+      I have a question about the content of some sentences.
+      Read them and tell me which one is about the ocean.
+
+  - role: "assistant"
+    content: >-
+      I understand. I will read the sentences carefully.
+
+  - role: "user"
+    content: >-
+      Read the following sentences carefully:
+
+      {sentences_block}
+
+  - role: "assistant"
+    content: >-
+      I have read the sentences and I am ready to answer
+      your question.
+
+  - role: "user"
+    content: >-
+      Which sentence is about the ocean?
+      {answer_instruction}
+
+  - role: "assistant"
+    content: "the answer is:"

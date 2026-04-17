@@ -1,0 +1,29 @@
+name: localization/control_topic_animals_cities_variants/v08
+content_correct_group: 0
+turns:
+  - role: "user"
+    content: >-
+      I have a question about some sentences. Tell me which one
+      mentions animals.
+
+  - role: "assistant"
+    content: >-
+      I understand. I will read the sentences carefully.
+
+  - role: "user"
+    content: >-
+      Read the following sentences:
+
+      {sentences_block}
+
+  - role: "assistant"
+    content: >-
+      I have read the sentences and I am ready to answer your
+      question.
+
+  - role: "user"
+    content: >-
+      Which sentence mentions animals? {answer_instruction}
+
+  - role: "assistant"
+    content: "the answer is:"

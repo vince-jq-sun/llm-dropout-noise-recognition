@@ -1,0 +1,28 @@
+name: localization/control_topic_sports_music_variants/v09
+content_correct_group: 0
+turns:
+  - role: "user"
+    content: >-
+      I would like to ask about the content of some sentences. Read
+      them and tell me which one describes a sport.
+
+  - role: "assistant"
+    content: >-
+      I understand. I will read them and answer your question.
+
+  - role: "user"
+    content: >-
+      Read the following sentences carefully:
+
+      {sentences_block}
+
+  - role: "assistant"
+    content: >-
+      I have read the sentences. I am ready to answer your question.
+
+  - role: "user"
+    content: >-
+      Which sentence describes a sport? {answer_instruction}
+
+  - role: "assistant"
+    content: "the answer is:"
