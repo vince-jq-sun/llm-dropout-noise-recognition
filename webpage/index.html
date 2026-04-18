@@ -323,11 +323,12 @@
           </h3>
           <div class="content has-text-justified">
             <p>
-              One concern is that the perturbation simply steers the model to pick whichever
-              sentence was perturbed, regardless of the question. To rule this out, we present the
-              model with two sentences on different topics (<em>e.g.</em>, one about animals, one about cities),
-              perturb one, and ask a simple comprehension question (<em>e.g.</em>, <em>"Which sentence was about
-                animals?"</em>).
+One hypothesis that might have accounted for the performance on this
+localization task is that the perturbation simply steers the model to pick
+whichever sentence was perturbed, regardless of the question. To rule this out,
+we present the model with two sentences on different topics (<em>e.g.</em>, one
+about animals, one about cities), perturb one, and ask a simple comprehension
+question (<em>e.g.</em>, <em>"Which sentence was about animals?"</em>).
             </p>
           </div>
 
@@ -390,8 +391,7 @@
 
           <div class="content has-text-justified">
             <p>
-              Setting itself apart from the other models, <b>Qwen3-32B</b> exhibits a notable pattern: <em>accuracy
-                increases monotonically</em> with
+              Setting itself apart from the other models, <b>Qwen3-32B</b> (left) exhibits a notable pattern: <em>accuracy increases monotonically</em> with
               perturbation strength. The model has a high prior to answer "dropout" (96.2% at the lowest
               tested rate), and yet it climbs to 99.2% at the highest rate. For noise, accuracy
               rises from 4.3% to 15.5% with the correct labels, and drastically to 89.6% when
@@ -460,7 +460,7 @@
               the degree to which the demonstrations conflict with other learned prior.
               We therefore compare the difference between in-context learning with the correct labels, and flipped ones
               (<em>i.e.</em>, dropout labeled as "noise", and vice versa).
-              We also run the same test with control labels.
+              We also run the same test with control labels. The resulting heatmaps of accuracy as a function of both perturbation strengths are shown for Qwen3-32B below.
             </p>
           </div>
 
