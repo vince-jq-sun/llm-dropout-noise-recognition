@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - paper_1/website
+      - main
 
 permissions:
   contents: read
