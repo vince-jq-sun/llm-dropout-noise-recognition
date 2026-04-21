@@ -57,7 +57,7 @@
               <div class="publication-links">
                 <!-- PDF Link. -->
                 <span class="link-block">
-                  <a href="#" class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://arxiv.org/pdf/2604.17465" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                     </span>
@@ -65,7 +65,7 @@
                   </a>
                 </span>
                 <span class="link-block">
-                  <a href="#" class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://arxiv.org/abs/2604.17465" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="ai ai-arxiv"></i>
                     </span>
@@ -74,7 +74,8 @@
                 </span>
                 <!-- Code Link. -->
                 <span class="link-block">
-                  <a href="#" class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://github.com/saifh-github/llm-dropout-noise-recognition"
+                    class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
@@ -323,12 +324,12 @@
           </h3>
           <div class="content has-text-justified">
             <p>
-One hypothesis that might have accounted for the performance on this
-localization task is that the perturbation simply steers the model to pick
-whichever sentence was perturbed, regardless of the question. To rule this out,
-we present the model with two sentences on different topics (<em>e.g.</em>, one
-about animals, one about cities), perturb one, and ask a simple comprehension
-question (<em>e.g.</em>, <em>"Which sentence was about animals?"</em>).
+              One hypothesis that might have accounted for the performance on this
+              localization task is that the perturbation simply steers the model to pick
+              whichever sentence was perturbed, regardless of the question. To rule this out,
+              we present the model with two sentences on different topics (<em>e.g.</em>, one
+              about animals, one about cities), perturb one, and ask a simple comprehension
+              question (<em>e.g.</em>, <em>"Which sentence was about animals?"</em>).
             </p>
           </div>
 
@@ -391,7 +392,8 @@ question (<em>e.g.</em>, <em>"Which sentence was about animals?"</em>).
 
           <div class="content has-text-justified">
             <p>
-              Setting itself apart from the other models, <b>Qwen3-32B</b> (left) exhibits a notable pattern: <em>accuracy increases monotonically</em> with
+              Setting itself apart from the other models, <b>Qwen3-32B</b> (left) exhibits a notable pattern:
+              <em>accuracy increases monotonically</em> with
               perturbation strength. The model has a high prior to answer "dropout" (96.2% at the lowest
               tested rate), and yet it climbs to 99.2% at the highest rate. For noise, accuracy
               rises from 4.3% to 15.5% with the correct labels, and drastically to 89.6% when
@@ -460,7 +462,8 @@ question (<em>e.g.</em>, <em>"Which sentence was about animals?"</em>).
               the degree to which the demonstrations conflict with other learned prior.
               We therefore compare the difference between in-context learning with the correct labels, and flipped ones
               (<em>i.e.</em>, dropout labeled as "noise", and vice versa).
-              We also run the same test with control labels. The resulting heatmaps of accuracy as a function of both perturbation strengths are shown for Qwen3-32B below.
+              We also run the same test with control labels. The resulting heatmaps of accuracy as a function of both
+              perturbation strengths are shown for Qwen3-32B below.
             </p>
           </div>
 
@@ -541,11 +544,16 @@ question (<em>e.g.</em>, <em>"Which sentence was about animals?"</em>).
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@article{fornasiere2026dropout,
-  author    = {Fornasiere, Damiano and Bronzi, Mirko and Kitts, Spencer and Palmas, Alessandro and Bengio, Yoshua and Richardson, Oliver},
-  title     = {Language Models Recognize Dropout and Gaussian Noise Applied to Their Activations},
-  year      = {2026},
-}</code></pre>
+      <pre><code>@article{fornasiere2026languagemodelsrecognizedropout,
+      title={Language models recognize dropout and Gaussian noise applied to their activations},
+      author={Damiano Fornasiere and Mirko Bronzi and Spencer Kitts and Alessandro Palmas and Yoshua Bengio and Oliver Richardson},
+      year={2026},
+      eprint={2604.17465},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2604.17465},
+}
+</code></pre>
     </div>
   </section>
 

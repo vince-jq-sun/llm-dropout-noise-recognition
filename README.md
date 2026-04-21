@@ -4,8 +4,8 @@
 </p>
 
 <p align="center">
-<a href="https://arxiv.org/abs/2604.00641"><img src="https://img.shields.io/badge/paper-arXiv:2604.00641-B31B1B?logo=arxiv" alt="Paper"/></a>
-<a href="https://tbd.com"><img src="https://img.shields.io/badge/blog-read%20post-blue" alt="Blog Post"/></a>
+<a href="https://arxiv.org/abs/2604.17465"><img src="https://img.shields.io/badge/paper-arXiv:2604.17465-B31B1B?logo=arxiv" alt="Paper"/></a>
+<a href="https://saifh-github.github.io/llm-dropout-noise-recognition/"><img src="https://img.shields.io/badge/blog-read%20post-blue" alt="Blog Post"/></a>
 </p>
 
 <p align="center">
@@ -511,12 +511,14 @@ spe/
 If you use this code in your research, please cite our paper:
 
 ```bibtex
-@article{spe2026,
-  title   = {Self-Perturbation Experiments: Can Language Models Detect Changes in Their Own Activations?},
-  author  = {TODO},
-  year    = {2026},
-  journal = {TODO},
-  url     = {TODO}
+@article{fornasiere2026languagemodelsrecognizedropout,
+      title={Language models recognize dropout and Gaussian noise applied to their activations},
+      author={Damiano Fornasiere and Mirko Bronzi and Spencer Kitts and Alessandro Palmas and Yoshua Bengio and Oliver Richardson},
+      year={2026},
+      eprint={2604.17465},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2604.17465},
 }
 ```
 
