@@ -4,8 +4,8 @@
 </p>
 
 <p align="center">
-<a href="https://arxiv.org/abs/2604.17465"><img src="https://img.shields.io/badge/paper-arXiv:2604.17465-B31B1B?logo=arxiv" alt="Paper"/></a>
-<a href="https://saifh-github.github.io/llm-dropout-noise-recognition/"><img src="https://img.shields.io/badge/blog-read%20post-blue" alt="Blog Post"/></a>
+<a href="https://arxiv.org/abs/2604.17465" target="_blank"><img src="https://img.shields.io/badge/paper-arXiv:2604.17465-B31B1B?logo=arxiv" alt="Paper"/></a>
+<a href="https://saifh-github.github.io/llm-dropout-noise-recognition/" target="_blank"><img src="https://img.shields.io/badge/blog-read%20post-blue" alt="Blog Post"/></a>
 </p>
 
 <p align="center">
