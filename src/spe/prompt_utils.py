@@ -7,7 +7,9 @@ import omegaconf
 import transformers
 import yaml
 
-_PROMPT_POOL_SEARCH_PATH = pathlib.Path("src/spe/conf/prompts/turns")
+_PROMPT_POOL_SEARCH_PATH = (
+    pathlib.Path(__file__).resolve().parent / "conf" / "prompts" / "turns"
+)
 
 
 def load_prompt_pool(
