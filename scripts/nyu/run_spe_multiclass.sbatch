@@ -11,7 +11,7 @@
 
 set -euo pipefail
 
-SPE_REPO=${SPE_REPO:-$HOME/llm-dropout-noise-recognition}
+SPE_REPO=${SPE_REPO:-/scratch/$USER/repos/llm-dropout-noise-recognition}
 SPE_ENV=${SPE_ENV:-/scratch/$USER/conda_envs/spe}
 
 MODEL=${MODEL:-qwen3_32b}

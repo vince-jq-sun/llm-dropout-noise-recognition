@@ -14,12 +14,20 @@ source /share/apps/anaconda3/2025.06/etc/profile.d/conda.sh
 conda create -p /scratch/$USER/conda_envs/spe python=3.12 pip -y
 conda activate /scratch/$USER/conda_envs/spe
 
-cd ~/llm-dropout-noise-recognition
+cd /scratch/$USER/repos/llm-dropout-noise-recognition
 python -m pip install --upgrade pip
 python -m pip install -e .
 
 export HF_HOME=/scratch/$USER/hf_cache
 hf download Qwen/Qwen3-32B
+```
+
+The repository lives on scratch because the account's home quota is full:
+
+```bash
+git clone --branch reproduce/arxiv-v2 --single-branch \
+  https://github.com/vince-jq-sun/llm-dropout-noise-recognition.git \
+  /scratch/$USER/repos/llm-dropout-noise-recognition
 ```
 
 ## Balanced zero-shot smoke test
