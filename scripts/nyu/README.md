@@ -54,6 +54,10 @@ interactive-shell `HF_HOME` cannot point a batch job at the wrong cache. Use
 `SPE_HF_HOME`, `SPE_TMPDIR`, or the corresponding `SPE_XDG_*` variables
 only when an explicit override is required.
 
+Matplotlib, W&B, Triton, TorchInductor, Torch extensions, and CUDA compilation
+caches are also redirected to scratch because the account's home quota is
+full.
+
 Check the job with:
 
 ```bash
