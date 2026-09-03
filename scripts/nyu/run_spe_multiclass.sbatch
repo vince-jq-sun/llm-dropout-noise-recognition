@@ -25,6 +25,10 @@ SENTENCES_FILE=${SENTENCES_FILE:-$SPE_REPO/data/sentences/15tok.txt}
 
 export HF_HOME=${HF_HOME:-/scratch/$USER/hf_cache}
 export TMPDIR=${TMPDIR:-/scratch/$USER/tmp/$SLURM_JOB_ID}
+export XDG_CACHE_HOME=${XDG_CACHE_HOME:-/scratch/$USER/.cache}
+export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:-/scratch/$USER/.config}
+export MPLCONFIGDIR=${MPLCONFIGDIR:-$XDG_CACHE_HOME/matplotlib-spe}
+export WANDB_CONFIG_DIR=${WANDB_CONFIG_DIR:-$XDG_CONFIG_HOME/wandb-spe}
 
 RUN_DIR="$SPE_REPO/results/nyu/${RUN_NAME}_${SLURM_JOB_ID}"
 HF_SNAPSHOT_REF="$HF_HOME/hub/models--Qwen--Qwen3-32B/refs/main"
@@ -37,7 +41,7 @@ export PYTHONUNBUFFERED=1
 export WANDB_MODE=offline
 export WANDB_DIR="$RUN_DIR"
 
-mkdir -p "$RUN_DIR" "$TMPDIR"
+mkdir -p "$RUN_DIR" "$TMPDIR" "$MPLCONFIGDIR" "$WANDB_CONFIG_DIR"
 
 module purge
 module load anaconda3/2025.06
