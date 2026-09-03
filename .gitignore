@@ -14,3 +14,5 @@ data/cache/*
 *.zip
 **/.DS_Store
 src/spe.egg-info
+/results/nyu/
+/spe_*.out
