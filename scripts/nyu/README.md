@@ -49,6 +49,11 @@ The job uses one H200 and writes to a unique directory under `results/nyu/`.
 It keeps W&B enabled in offline mode so the raw per-sample result tables are
 preserved. Do not set `wandb.enabled=false` for formal runs.
 
+The runner deliberately ignores inherited generic cache variables so an
+interactive-shell `HF_HOME` cannot point a batch job at the wrong cache. Use
+`SPE_HF_HOME`, `SPE_TMPDIR`, or the corresponding `SPE_XDG_*` variables
+only when an explicit override is required.
+
 Check the job with:
 
 ```bash

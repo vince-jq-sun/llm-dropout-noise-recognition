@@ -23,12 +23,12 @@ ALIASES=${ALIASES:-none}
 RUN_NAME=${RUN_NAME:-qwen32_zero_shot_smoke}
 SENTENCES_FILE=${SENTENCES_FILE:-$SPE_REPO/data/sentences/15tok.txt}
 
-export HF_HOME=${HF_HOME:-/scratch/$USER/hf_cache}
-export TMPDIR=${TMPDIR:-/scratch/$USER/tmp/$SLURM_JOB_ID}
-export XDG_CACHE_HOME=${XDG_CACHE_HOME:-/scratch/$USER/.cache}
-export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:-/scratch/$USER/.config}
-export MPLCONFIGDIR=${MPLCONFIGDIR:-$XDG_CACHE_HOME/matplotlib-spe}
-export WANDB_CONFIG_DIR=${WANDB_CONFIG_DIR:-$XDG_CONFIG_HOME/wandb-spe}
+export HF_HOME=${SPE_HF_HOME:-/scratch/$USER/hf_cache}
+export TMPDIR=${SPE_TMPDIR:-/scratch/$USER/tmp/$SLURM_JOB_ID}
+export XDG_CACHE_HOME=${SPE_XDG_CACHE_HOME:-/scratch/$USER/.cache}
+export XDG_CONFIG_HOME=${SPE_XDG_CONFIG_HOME:-/scratch/$USER/.config}
+export MPLCONFIGDIR=${SPE_MPLCONFIGDIR:-$XDG_CACHE_HOME/matplotlib-spe}
+export WANDB_CONFIG_DIR=${SPE_WANDB_CONFIG_DIR:-$XDG_CONFIG_HOME/wandb-spe}
 
 RUN_DIR="$SPE_REPO/results/nyu/${RUN_NAME}_${SLURM_JOB_ID}"
 HF_SNAPSHOT_REF="$HF_HOME/hub/models--Qwen--Qwen3-32B/refs/main"
