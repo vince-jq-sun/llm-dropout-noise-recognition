@@ -9,10 +9,9 @@ node first.
 ```bash
 module purge
 module load anaconda3/2025.06
-source /share/apps/anaconda3/2025.06/etc/profile.d/conda.sh
 
-conda create -p /scratch/$USER/conda_envs/spe python=3.12 pip -y
-conda activate /scratch/$USER/conda_envs/spe
+python -m venv --copies /scratch/$USER/venvs/spe
+source /scratch/$USER/venvs/spe/bin/activate
 
 cd /scratch/$USER/repos/llm-dropout-noise-recognition
 python -m pip install --upgrade pip

@@ -12,7 +12,7 @@
 set -euo pipefail
 
 SPE_REPO=${SPE_REPO:-/scratch/$USER/repos/llm-dropout-noise-recognition}
-SPE_ENV=${SPE_ENV:-/scratch/$USER/conda_envs/spe}
+SPE_ENV=${SPE_ENV:-/scratch/$USER/venvs/spe}
 
 MODEL=${MODEL:-qwen3_32b}
 NUM_SAMPLES=${NUM_SAMPLES:-10}
@@ -41,8 +41,7 @@ mkdir -p "$RUN_DIR" "$TMPDIR"
 
 module purge
 module load anaconda3/2025.06
-source /share/apps/anaconda3/2025.06/etc/profile.d/conda.sh
-conda activate "$SPE_ENV"
+source "$SPE_ENV/bin/activate"
 
 if [[ ! -x "$SPE_ENV/bin/spe-multiclass" ]]; then
     echo "ERROR: spe-multiclass is not installed in $SPE_ENV" >&2
